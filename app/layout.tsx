@@ -1,5 +1,5 @@
 import './globals.css'
-import { inter, lineSeedRg, lineSeedBd, lineSeedXBd, lineSeedTh, lineSeedHe } from '@/fonts'
+import { lineSeedRg} from '@/fonts'
 
 export const metadata = {
   title: 'Kepler portal 🚀',
