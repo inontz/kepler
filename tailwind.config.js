@@ -14,6 +14,9 @@ module.exports = {
           red: "#D90000",
         },
       },
+      backgroundImage: {
+        "grid-mask": "url('/img/grid.svg')",
+      },
     },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
