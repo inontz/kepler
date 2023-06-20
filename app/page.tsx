@@ -24,15 +24,16 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center p-9 bg-grid-mask">
       <div className="z-10 w-full max-w-full items-center justify-between text-sm lg:flex">
+        {status !== "Initialized" && <SignInButton login={login} />}
         {status == "Initialized" && <p>🤖 Welcome {displayName} to Kepler.</p>}
         {status == "Initialized" &&
           <Image
             src={pictureUrl}
             width={100}
-          height={50}
-          alt={`${displayName} logo`} 
+            height={50}
+            alt={`${displayName} logo`}
           />}
-        
+
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white lg:static lg:h-auto lg:w-auto lg:bg-none">
 
           <Link
@@ -108,7 +109,7 @@ export default function Home() {
             Just Berlin house . 🐱‍🚀
           </p>
         </a>
-        {status !== "Initialized" && <SignInButton login={login} />}
+
       </div>
 
     </main>
