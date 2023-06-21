@@ -31,7 +31,6 @@ export async function POST(request: Request) {
   //   return res.status(401).end('Unauthorized');
   // }
 
-  // Process the incoming events
   const events: WebhookEvent[] = res.events;
   for (const event of events) {
     // Handle each event type (e.g., message, follow, etc.)
