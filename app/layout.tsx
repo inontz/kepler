@@ -1,10 +1,13 @@
+import { Metadata } from "next";
 import "./globals.css";
 import { lineSeedRg } from "@/fonts";
 
-export const metadata = {
-  title: "Kepler 🚀",
-  description: "Fly to the Moon.",
-};
+export const metadata: Metadata = {
+  title: {
+    template: '%s | KEPLER 🚀',
+    default: 'KEPLER 🚀',
+  },
+}
 
 export default function RootLayout({
   children

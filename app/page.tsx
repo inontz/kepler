@@ -38,7 +38,7 @@ export default function Home() {
 
           <Link
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://kepler.inontz.xyz"
+            href="https://kepler.inontz.me"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <div className="mb-32 grid text-center justify-items-center lg:grid-cols-4 lg:text-left">
         <a
-          href="https://kepler.inontz.xyz"
+          href="https://kepler.inontz.me"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
@@ -76,7 +76,7 @@ export default function Home() {
           </p>
         </a>
         <a
-          href="https://api.inontz.xyz"
+          href="https://api.inontz.me"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100"
           target="_blank"
           rel="noopener noreferrer"
