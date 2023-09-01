@@ -37,3 +37,4 @@ next-env.d.ts
 # VSCODE
 .vscode
 .history
+%kepler%kepler-portal/chat_history/history.sqlite

@@ -4,8 +4,8 @@ import { lineSeedRg } from "@/fonts";
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | KEPLER 🚀',
-    default: 'KEPLER 🚀',
+    template: '🚀 %s | KEPLER 🚀',
+    default: '🚀 iNonTz KEPLER 🚀',
   },
 }
 
